@@ -8,3 +8,21 @@ d3nonkfcqary84.cloudfront.net
 
 
 d3nonkfcqary84.cloudfront.net/anigif_enhanced-buzz-11980-1381846269-1.gif
+
+there are restrictions 
+whitelist
+blacklist
+
+there are also invalidations
+instead of using ttl
+time to live
+
+***deleting a cloudfront distribution***
+	*disable
+		will take up to 15 min to disable then =>
+	*delete
+
+
+
+
+
