@@ -1,4 +1,9 @@
+ssh ec2-user@54.173.102.127 -i ~/.ssh/myec2key.pem
+
+==============================
+==============================
 s3 is object based
+
 files
 s3 is universal namespace
 
@@ -171,3 +176,4 @@ moving everyone to import/export snowball
 
 moving on to ec2
 backbone of aws
+
