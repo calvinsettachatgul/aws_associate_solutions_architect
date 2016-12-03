@@ -58,7 +58,9 @@ remember that addresss!
 
 after the metadata
 
-curl http://169.254.169.254/latest/user-data/
+curl http://169.254.169.254/latest/meta-data/
+curl http://169.254.169.254/latest/meta-data/public-ipv4
+curl http://169.254.169.254/latest/meta-data/public-ipv4 > mypublicip.html
 
 this is not a valid url
 always after the meta data

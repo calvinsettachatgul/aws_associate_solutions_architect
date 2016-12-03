@@ -1,0 +1,8 @@
+#!/bin/bash
+
+yum install httpd -y # install apache
+yum update -y # update
+aws s3 cp s3://acloudguruwebsitebucketcalvin/index.html /var/www/html/
+service httpd start
+chkconfig httpd start
+
