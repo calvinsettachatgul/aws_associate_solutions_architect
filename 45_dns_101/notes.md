@@ -176,3 +176,84 @@ charged for request if using cname
 if alias record won't be charged
 
 9 out of 10 chooose alias record over a cname
+
+what are domain registrars
+
+registar is an authority
+
+InterNIC service of ICANN
+
+WhoIS database
+
+125 per month
+go out and buy the domain itself will be a few dollars a month
+
+start of authority record a few points
+
+name of the server 
+	supplied data for the zone
+
+administrator of the zone
+current version of the data file
+number of seconds before checking for updates
+number of seconds retry
+max # seconds secondary name server can be used
+
+ns records?
+name server records
+
+
+go into GoDaddy console
+take the ns records and apply 
+traffic will be directed over to route 53
+fundamental type of record
+
+A record
+used by computers to translate name of address to IP address
+
+talking about a records talking ipv4 records
+quadruple record?
+
+thing to note is the ttl record time to live record
+lenght of time cached on resolving server or own computer
+
+
+pc check whether has address in cached
+else does request to resolving server
+
+pull a record for a cloud guru
+
+cache in its local cache
+if visit again won't have to do another request
+how long kept in cache?
+
+
+if adding additional arecords or servers in production
+or moving to aws from azure
+
+before doing the migration drop the ttl to 5min or 300 sec
+
+if you don't do that will have going to old site and going to new site
+
+do the migration a couple days later only affected for 5 min window
+
+lets move onto cnames
+cannonical names
+dns1 -> dns2
+
+resolves to the same address
+
+move 1 domain name to another
+
+lets move onto alias records
+aws has created
+only in aws ecosystem in route 53 system
+
+similar to cname
+map from
+map resource record sets in hosted zone to elb cloudfront distrib, s3 buckets that are configured as websites
+
+alias records work like cname record 
+	map dns name example.com to another 'target' dns name (elb1234.elb.amazon.com)
+
+key difference cname can't be used for naked domain names (zone apex)
