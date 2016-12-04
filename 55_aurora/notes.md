@@ -128,3 +128,77 @@ lab not covered in free tier at all budget 5 -10 dollars
 
 don't leave it running by accident
 
+***aurora lab***
+
+create aurora replica
+we have our source
+use the same db isntance class
+the source databse acloud guru replica
+
+publicly accessible?
+different az?
+	no
+
+different tier
+tier 1 failover
+	additional failover replicats
+
+
+going to leave everything as is
+
+aurora replica
+
+this is a reader not a writer
+
+	if you want additional traffic then you want a writer role
+
+dns endpoint name
+	connect to the database
+
+now you can see that multi az is gone
+
+add another aurora read replica
+
+then you can 3 zones
+as many az as is availabie for your region
+
+wait for replica to be created
+
+aurora read replica available
+
+replication role is a reader
+
+compare these 2 different
+instancs
+
+cluster endpoint
+	this particular instance fails
+then auto failover to another instance endpoint
+
+amazon will handle the failure updating
+
+its probably not going to come up in the exam 
+couple of more things
+instance actions and do a failover
+
+restore in a point in time
+
+create another replica
+
+start deleting the intsances
+read replic delete first
+
+it does cost money
+hit delete
+
+if want to create final snapshot?
+
+	ask us on the primary replica
+
+read replica needs to delete first before deleting the cluster
+
+that has now deleted
+now go in and  delete the cluster
+now straight away do you want to create final snap shot everything is getting deleted snap shot and that is it
+
+get familiar they will add some aurora questions along with ecs
