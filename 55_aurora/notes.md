@@ -75,3 +75,56 @@ if this particular instance fails
 
 
 go in and handle 
+
+what is aurora?
+
+
+5 times better perforamnce than mysql
+similar perf and availability
+
+all advantages of aurora
+
+oracle but less cost
+
+advanced database technology
+
+won't be on exam
+
+no aurora questions yet
+
+have some understanding before sitting in at the exam
+
+scaling capabilities
+
+storage auto scales
+
+go over 10gb then get another 10gig storage
+
+push button scaling?
+not like dynamodb
+
+next great thing?
+
+effectively 6 copies of your data
+handle 2 copies loss without affecting write
+handle 3 copies loss without affecting read
+self healing db
+
+replica features
+
+provisiion all these
+
+aurora replicas
+have up to 15 aurora replicas
+upt to 5 mysql read replicas
+
+failover?
+lose primary arurora
+then auto occur to aurora failover
+
+will not auto failover to mysql
+
+lab not covered in free tier at all budget 5 -10 dollars
+
+don't leave it running by accident
+
