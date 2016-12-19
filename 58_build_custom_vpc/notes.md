@@ -1,4 +1,5 @@
 build out your own private vpc
+------------------------------
 
 custom vpc
 
@@ -81,14 +82,16 @@ when create vpc does not automatically create subnets
 
 creates root table
 network acl
+and security group
 
 created a vpc
-route table
-route tenancy
-default security group
+	route table
+	route tenancy
+	default security group
 
 
 preexisting security groups
+	default created 
 
 go into subnets
 
@@ -123,12 +126,7 @@ have to create subnets
 creeate 2 subnets
 naming convention
 address range naming convention
-
-also what AZ that is in 
-in this instnace eu-central-1a
-
-myvpc
-vpc
+also what AZ that is in in this instnace eu-central-1a myvpc vpc
 
 cidr blocks 10.0.1.0/24d
 
