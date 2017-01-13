@@ -15,4 +15,85 @@ amazon's internal infrastrucutre
 
 selling off it as a serive
 
+moving over to the platform
 
+2010 all of amazon.com moved over
+
+2012 first re-invent conf
+
+electronic dance music?
+
+check out reinvnet
+
+2013 certifications were launced
+
+2014 committed to acheive 100% renewable energy
+
+revenue from amazon.com
+
+end of 2016 
+run rate of $13 billion USD
+
+growing exponential rate
+
+add up the industry giants
+
+link with the growth of clowd and the growth of IT
+
+some suffered a lot more and less worse
+
+had an impact on the players in the market
+
+new service announcments
+
+82
+159
+280
+516
+735
+1000 new service and updates
+
+hard to keep up
+
+every single week
+
+entirely up to you
+rss alert
+
+main evangelist for aws
+
+meet jeff ?
+
+jeff baz
+
+look at gartners magic quadrant
+
+intrastructure as a service
+
+comparing all the different players of cloud
+
+ability to execute and completeness of vision
+
+aws is by far ahead as the leader
+
+behind is microsoft
+
+then visionaries
+
+what does it look like for 2016
+
+microsoft catching up
+google is a visionary
+
+microsoft does have certification
+
+google certification
+	watch google
+
+googled does amazing things AI and big data
+
+google is breaking away
+
+2016
+
+google catching up
