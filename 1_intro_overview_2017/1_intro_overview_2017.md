@@ -12,6 +12,8 @@ what are you going to need?
 fastest growing cloud computing platform
 
 90% of the total compute capacity
+    next 5% microsoft
+    next 5% all other cloud providers
 
 huge intterms of its reach
 
@@ -21,7 +23,6 @@ forbs article
 
 forbs certification ranking
 ------------------------------
-
 amazon released security specialization
 
 aws is growing
@@ -33,6 +34,7 @@ teach you when new services are released
 partner program
 
 tech partner
+------------------------------
 	alert logic
 	cloudberry lab
 	sumo logic
@@ -40,12 +42,17 @@ tech partner
 	new relic
 
 consulting partner
+------------------------------
 	logic works
 	rackspace
 	accenture
 	data pipeline
 
 different levels of consulting partners
+    standard
+    advanced
+    premier
+
 staff that are certified to a certain level
 
 get a job in the aws space
@@ -83,26 +90,28 @@ easiest to hardest exam
 		# of questions length of time and indepth knowledge and broad knowledge
 
 5 out of 5
-	nobody has 8 out of 85 out of 5
+	nobody has 8 out of 8
+    before reinvent 2017
+    5 out of 5
 
 can you get 8 out of 8?
-	
 
 why you should learn 
+    https://acloud.guru
 	a cloud guru
 	learn it from us
 
 founded may 2015
 	discussion forums
 
-reach directly by the site
+reach directly by the site pm by the site
 	team of about 20 people
 	students
 	updating and creating new content
 
 
 ryan kronenberg
-
+------------------------------
 	reinvent 2015
 
 then reinvent 2016
@@ -111,17 +120,22 @@ austrailian lives in london
 
 say it the American way
 
-ex rackspace sungard as smart421
+ex rackspace sunguard as smart421
 
 developer sys admin solutions architect
 
 3 certification courses
 	or collegues
+8 certification courses available
 
-community heroe!!
+community hero!!
 	ryan
 
 Alexa Champion
+    alexa champion
+
+grow your amazon skills by getting your hands dirty
+turning infrastructure into code
 
 Ryan's Credentials
 ------------------------------
@@ -151,7 +165,15 @@ explain right from the beginning
 
 taught 30000 students 100000 students in 2016
 
+largets clients
+    a cloud guru came out on top
+
+    serverless 
+
+    almost no cost
+
 compared trainings highest pass rate and lowest cost
+
 
 couple of small offices
 
@@ -159,14 +181,17 @@ stay focussed on the exam
 	dont do any deep dives not on the certification
 
 dynamo db barely comes up on solutions architect exam
+    developer comes up a lot
+19 hour dynamo db guru
 
 focus areas of study in the exam then go into the ecosystem
 
 sam kronenburg his brother
-
-defrag program
+    x microsoft
+    defrag program
 
 	architect of a cloud guru platform
+    pete sevarsky
 
 	serverless technology
 
@@ -174,17 +199,30 @@ founders of serverless conf
 
 	london tokyo and new york
 
+    serverless conf.io
 
 linked in request
+    acloudguru
+    done business before
 
 subscribe to youtube channel
+    run by mike chambers
+    keep up with changes in aws
+    
+youtube channel
+    fantastic way of keeping up with aws platform
+
+register for discussion forums
 
 sign up for aws account 
 	mac window or linux
 
-ssh into aws instances
+ssh into aws ec2 instances
+    mac and windows
 
 Udemy students many 
+    acloud.guru
+    wont cost you anything extra
 
 access courses on the site
 
@@ -193,5 +231,4 @@ whole support system on the site
 do not pm on udemy messaging system
 
 contact through a cloud guru platform
-
 

@@ -1,32 +1,50 @@
+exam blueprint read it yourself
+landing page 
+prepare for the exam section
+download exam guide
+
 first objective
-  2         design ha cost efficient fault tol scaleable
-  3         implement deploy
-  4         securtity
-  5         trouble shooting
-  6
-  7 80 min long
-  8
-  9 60 questions
- 10         now added 5 from 55
- 11
- 12 number of questions can change
- 13
- 14 pass is based on bell curve
- 15
- 16         students 67 and failed
- 17         67 and passed
- 18
- 19 unfair?
- 20         but it is based on bell curve
- 21
- 22         it is for all the exams
- 23
- 24 typically want to aim for 70%
- 25
- 26 then you will pass the exam
- 27
- 28 qualification is valid for 2 years then will want to renew it!
- 29
+        design ha cost efficient fault tol scaleable systems
 
+        implement deploy
 
+        data securtity
+            one white paper
 
+        trouble shooting
+
+80 min long
+
+60 questions
+        now added 5 from 55
+        this can change
+
+number of questions can change
+
+multiple choice
+
+pass is based on bell curve
+        students 67 and failed
+        67 and passed
+    pass mark moves around
+
+unfair?
+        but it is based on bell curve
+
+        it is for all the exams
+
+typically want to aim for 70%
+
+then you will pass the exam
+
+qualification is valid for 2 years then will want to renew it!
+
+good news is that it is half price if go on to renew
+
+scenario based
+as you progress questions get harder 
+exam simulation questions
+
+exam questions too simple?
+end of course there are difficult scenario based questions 
+learn more then harder and simulate exam towards the end 
