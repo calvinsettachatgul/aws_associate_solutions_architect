@@ -1,0 +1,106 @@
+connects on premasis device to integrate with online aws storage 
+
+your data center 
+propagate or replicate to aws 
+
+to s3 
+or to glacier 
+
+aws storage gateway appliance available for download 
+4 types of storage gateways
+
+file gateway nfs
+    word files 
+    pdf 
+    videos pictures 
+volume gateway iscsi
+    database
+    not stored on s3 
+        stored volumes 
+        cached volumes 
+tape gateway  (VTL)
+
+start with easiest gateway 
+    file gateway 
+        NFS 
+        mount point 
+            storing in s3 
+
+    direct connect 
+    through vpc also 
+        sending information to s3 
+
+moving on to volume gateway 
+    disk volumes 
+        iscsi 
+    applications 
+    databases 
+    virtual harddisk 
+point in time snapshots 
+EBS snapshots 
+    volume gateway 
+  snapshots are incrmental   
+
+2 diff types of volume gateways 
+    virtual harddisks on prem 
+    back them up 
+
+    stored volumes 
+        asyc back up to aws 
+        taking snapshots of EBS 
+        moving them s3 
+
+    cached vouems let you use s3 as primary data storage 
+
+    designed unstore volumes 
+
+    gateway 
+        cached volumes 
+        all data goes to s3 
+
+here is our cached storage 
+    there is an upload buffer 
+    virtual disks sit inside s3 
+    cant have blocked based storage on s3 
+
+    some kind of ebs storage 
+    everytime write data its storaged in s3 
+
+    a bit complicated 
+
+hang in there 
+
+volume tape gateway 
+    used for back up 
+    virtual tape based back up 
+    on taped gateway 
+    net back up 
+    backup exec exec
+    Veeam
+
+virtual tapes backed by s3
+
+   virtual tapes uploaded to s3  
+
+all sounds complicated 
+    storage or back up background 
+
+ec2 section of the course and watch this section again 
+
+going into the exam only need to know at high level 
+
+filegateway 
+    word and pdf images videos on s3 
+    not database or os 
+
+volume gateway 
+    iscssi
+    stored volumes 
+    cached volumes 
+        entire data is on cloud and cached onsite 
+
+gateway virtual tape library
+    popular backup applicatios like NetBackup Backup Exec Veeam
+
+media company 
+
