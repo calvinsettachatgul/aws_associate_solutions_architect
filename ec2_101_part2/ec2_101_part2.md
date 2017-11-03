@@ -67,6 +67,9 @@ what will we cover
         build a serverless webpage  
         build serverless website with polly 
 
+how to create  reserved instance 
+    
+
 exam tips 
 what should you remember 
     on demand 
@@ -97,3 +100,5 @@ important point cant mount 1 ebs to multiple ec2 instances
 instance types 
 
 dr mc giftpx    
+
+default metrics that come with cloud watch 

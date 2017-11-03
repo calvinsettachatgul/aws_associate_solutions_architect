@@ -100,11 +100,5 @@ ebs root volumes
         create a copy and your own ami 
         encrypt your own root volume 
 
-additional volumes can be encrypted 
-
-spinning up an ec2 instance 
-
-look at security groups 
-
     
 
