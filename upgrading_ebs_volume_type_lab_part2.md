@@ -36,4 +36,3 @@ lsblk
 xvdf mount 
 create a file system 
 
-
