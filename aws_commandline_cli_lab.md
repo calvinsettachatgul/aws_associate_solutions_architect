@@ -8,3 +8,8 @@ log into aws console
 it is running 
 
 start from scratch 
+
+leave everything default 
+s3 admin roll 
+
+leave everything default don't fill in a role yet 

@@ -18,9 +18,9 @@ bash script
 #!/bin/bash
 yum update -y
 yum install httpd -y
+aws s3 cp --recursive s3://mywebsitebucket-calvin/ /var/www/html
 service httpd start
 chkconfig httpd on 
-aws s3 cp s3://mywebsitebucket-calvin/index.html /var/www/html
 
 automated the deployment of a web server 
 pulled down the data from s3 
