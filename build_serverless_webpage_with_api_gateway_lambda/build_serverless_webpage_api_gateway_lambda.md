@@ -162,3 +162,45 @@ its all working
 set up an s3 bucket 
 
 myserverlesswebsite 
+
+add the get invoke url to the get request in index.html
+
+add public read access 
+
+can add a bucket policy 
+to make the entire bucket public 
+
+
+click the button on index 
+then you will change the name 
+
+created a role in iam 
+click and see the policies associated with the role 
+
+2 roles 
+see the policy statements that allow for lambda read and write to dynamo db
+
+read and write access to s3 also 
+you can add additional permissions 
+
+continuously update this role 
+
+configure route 53 to re route the request 
+
+if you have your own domain name 
+
+route 53 register your own domains 
+
+you can do that if you want to play around with domain names 
+
+hosted zones 
+
+ns record 
+
+alias targets not available 
+the bucket name has to be the same as the s3 bucket 
+
+no server is easier to manage than no server
+
+serverless website using polly 
+generate an mp3 file from notes 
