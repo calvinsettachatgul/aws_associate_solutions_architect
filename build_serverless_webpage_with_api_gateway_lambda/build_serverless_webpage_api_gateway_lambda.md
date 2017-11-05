@@ -151,3 +151,14 @@ deployment message
 myfirst deploy 
 
 click on get and invoke url 
+
+
+get back to different stages 
+click on get 
+click on get 
+see your name 
+its all working 
+
+set up an s3 bucket 
+
+myserverlesswebsite 
