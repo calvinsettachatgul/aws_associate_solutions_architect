@@ -139,3 +139,23 @@ which regions have alexa
 
 our code is convertto audio 
 
+environment varialbs 
+DB_TABLE_NAME
+    posts
+BUCKET_NAME
+    s3 bucket name 
+increase the time out for the lambda file 
+increase to max to 5 min
+
+lambda stays active for 5 min 
+that is everying we need to do 
+
+set up the trigger 
+its going to be an sns 
+add the trigger 
+sns 
+
+now create the 3rd lambda function
+
+
+
