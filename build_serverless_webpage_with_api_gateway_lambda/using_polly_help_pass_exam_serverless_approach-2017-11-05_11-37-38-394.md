@@ -5,5 +5,9 @@ using apigateway
 cross origin resource sharing 
 cors
 
+create a serverless application 
 
-
+isnt exam related 
+using apigateway 
+cors 
+in the exam 
