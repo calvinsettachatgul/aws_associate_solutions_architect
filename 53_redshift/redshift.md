@@ -38,6 +38,7 @@ single node
 multinode 
 leader node 
     receives queries 
+    manages the client connection 
 compute node 
     up to 128 compute nodes
 
@@ -53,4 +54,58 @@ only columns are processed and stored sequentially
 column queries 
 
 does not use data 
+
+what is columnar data storage?
+aggregates of a property on different records 
+far fewer io 
+
+increasing performance 
+only going to use the data within those columns
+advanced compression 
+
+    row in a table 
+    with different column data types 
+    compression of rows with a lot of data types 
+
+column with single data type 
+compress that data  a lot better 
+
+relative to traditional data stores 
+
+loading into a data table 
+selects the optimized compression scheme
+
+compression is optimized 
+    then faster 
+
+distribution computing 
+
+fast query performance 
+start with a single node arch
+
+massive parallel processing 
+
+compute node hours 
+    billed 1 unit per node per hour 
+    cluster 
+    2160 instance hours 
+    charged for the cluster and not the leader node 
+
+redshift security 
+
+encrypted using ssl 
+aws key management service 
+
+multi az? no!
+currently only 1 az
+az
+this is for management to run processing  
+can restore snapshots to a new AZ in the event of an outage 
+
+popular around the world 
+advanced compresssion algorithm 
+
+only one area of a disk rather than find all diffferent records sets across a lot of disks 
+extremely efficient 
+hardware and software layers 
 
