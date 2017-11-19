@@ -33,13 +33,17 @@ mariadb
 
 rds and dynamo come up on the exam important to go over the faq 
 differences one over the other 
-nonrelational 
 
+nonrelational 
+------------------------------
 2004 
 get your head around 
 couchdb 
 mongodb 
 cloudant 
+
+tabular 
+key value pair 
 
 dynamodb 
 
