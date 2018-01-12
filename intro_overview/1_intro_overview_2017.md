@@ -41,12 +41,15 @@ tech partner
 	data dog
 	new relic
 
+
 consulting partner
 ------------------------------
 	logic works
 	rackspace
 	accenture
 	data pipeline
+cloud reach 
+consulting around aws 
 
 different levels of consulting partners
     standard
