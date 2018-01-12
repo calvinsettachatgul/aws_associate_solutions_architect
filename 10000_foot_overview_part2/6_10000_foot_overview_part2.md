@@ -110,3 +110,90 @@ take oracle database and migrate to oracle
 minute 640
 
 services part 2
+
+compute 
+
+ec2 
+elastic bean stalk
+ec2 container service 
+lambda
+
+light sail 
+    vps service 
+    provision with server and fixed ip address
+
+watered down version of ec2 
+
+batch 
+    batch computing 
+
+
+storage 
+------------------------------
+s3 is oldest 
+efs 
+glacier 
+snowball 
+
+storage gateway 
+    virtual machines on premise 
+    
+
+databases
+------------------------------
+RDS
+DynamoDB
+Elasticache
+Red Shift
+    querying complex
+    data warehousing 
+
+migration 
+------------------------------
+aws migration hub 
+app discovery service 
+db migration service 
+    visualize
+
+server migration service 
+
+snowball
+
+networking and contnet delivery 
+------------------------------
+vpc 
+    route tables 
+    security groups 
+        fundamental part of 3 ass exams 
+    cloudfront 
+    route53
+        go through and buy a domain name 
+    api gateway 
+        create your own api 
+    
+    direct connect 
+        dedicated line 
+        into vpc 
+
+
+developer tools 
+------------------------------
+
+    codestar 
+        project management 
+        collaboration 
+    codecommit 
+        store code 
+        source control service 
+    codebuild 
+        compiling and deploy 
+    codedeploy 
+    codepipeline
+        continuous integration 
+    xray 
+        root cause analysis 
+    cloud9 
+        ide environment 
+        aquisition 
+
+
