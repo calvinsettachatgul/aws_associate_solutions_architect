@@ -53,7 +53,9 @@ describe a trail
 see the document
 
 compare to what document is to administrator access 
-full access
+admin access
+    same as root 
+    full access
 
 administrator is full access
 
@@ -67,8 +69,10 @@ created users
 
 applied to group
 
-access key id 
-secret access key
+generated tokens to programatically execute commands in aws 
+    access key id 
+    secret access key
+
 tokens to progrmatically interact with aws
 install command line tools
 
@@ -102,3 +106,60 @@ use ec2 and lambda
 
 store objects in buckets
 quick lab to set up billing alarms
+
+download the csv files
+
+create a new group 
+
+    john works in hr 
+
+    read s3 access
+    remove john from this group
+        add into the hr group
+
+    
+    change password 
+    amazon s3 read only access 
+
+    add permissions to john 
+    not to the group 
+
+    add permissions directly to john 
+        not from a group attached directly to him 
+
+
+    security credientials 
+    make them inactive?
+        no longer programatically able to interact with aws 
+
+john is a member of hr group 
+
+
+created iam users 
+
+apply a policy
+    apply password policy 
+
+roles ec2 section of the course 
+
+    entities that you trust 
+    role in another account 
+    write to an s3 bucket 
+
+    ec2 isntance needs to perform actoions 
+
+
+    create a role 
+    allow ec2 to write to s3 
+
+role type brocken down by services 
+    click on ec2 
+
+    amazon s3 admin access 
+
+    full access to s3 for ec2 
+
+    create that role 
+
+    apply that role to an ec2 instance 
+    
