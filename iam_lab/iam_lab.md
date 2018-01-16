@@ -2,6 +2,9 @@
 iam lab 
 ------------------------------
 
+iam is global!
+    they are available all across the world 
+
 iam lab
 virtual mfa device or 
 hardware mfa device
