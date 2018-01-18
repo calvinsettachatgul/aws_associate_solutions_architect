@@ -3,9 +3,13 @@ storage summary
 ------------------------------
 exam tips 
 
+how many s3 buckets allowed per account 100
+
 s3 is object store 
     upload files
 0 - 5tb
+multipart upload api for objects 
+    if greater than 5gb
 there is unlimited storage 
 files stored in buckets 
     buckets are folders 
