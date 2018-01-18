@@ -113,4 +113,10 @@ for the asset
 https://s3-ap-southeast-2.amazonaws.com/mysydneycloudfrontdist-calvin/acloud-guru-logo.png
 access denied 
 
-fuck worked on this way too long 
+invalidate objects but it costs you money
+
+used for uploading files as well
+
+more in exam tips 
+
+delete cloudfront 

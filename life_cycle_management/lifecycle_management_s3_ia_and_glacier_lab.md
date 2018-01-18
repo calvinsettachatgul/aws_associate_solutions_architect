@@ -90,7 +90,8 @@ can be used in conjunction with versioning
 
 current version or previous versions 
 
-
 use it to permantently delete objects
 
 minimize on storage costs 
+
+
