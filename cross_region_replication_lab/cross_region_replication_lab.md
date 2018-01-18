@@ -36,18 +36,23 @@ select an IAM role
     create a new role for you 
     enable versioning on sydney bucket
 
-do you think objects in current bucket have been replicated to sydney
-they are not in there yet not the existing 
-but only newly created 
-go to google 
-aws command line tools aws 
-google it 
+create a new role 
+
+do you think objects in current bucket have been replicated to sydney?
+    they are not in there yet not the existing 
+        but only newly created 
+        copy the contents
+    go to google 
+        aws command line tools aws 
+        google it!
 
 aws cli 
 install this 
 
 64 bit 
 mac or linux using pip 
+
+mac users use pip
 
 pip install awscli
 
@@ -58,10 +63,13 @@ go over to terminal and terminal window in mac
 
 just awscli tools 
 download install command line tools 
+go over to the terminal 
 
 aws configure 
-key id 
-secret
+    pass these 2 variables 
+    from creating a user in iam management
+        key id 
+        secret
 
 create a new group 
 admin access 
@@ -98,6 +106,8 @@ ether
 
 buying ether from different providers 
 
+aws s3 ls
+
 wallet stored as encrypted file 
 store in s3 and cross region replication 
 encrypt 
@@ -108,8 +118,11 @@ aws s3 cp -recursive s3
 
 make the other file 
 public 
+aws s3 cp --recursive s3://acloudguru-2017-calvin  s3://myacloudgurusydn
+eybucket-calvin
 
 does cross region replication copy over the permissions?
+permissions do not copy across
 
 deletion of delete marker does not replicate
 
