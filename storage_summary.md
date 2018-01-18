@@ -129,7 +129,7 @@ storage gateway
         file gateway directly on s3 
         volume gateway 
             stored volumes entire dataset stored on site and is asych backed up to s3 
-            iscssi 
+                iscssi 
             cached volumes stored on s3 only most frequent on site 
         gateway virtual tape library (vtl)
             used to netbackup backup exec veeam
@@ -168,5 +168,3 @@ html and static content
 s3 write http 200 code 
 load files much faster by enable multipart upload 
 make sure the s3 faq before taking the exam
-
-    
