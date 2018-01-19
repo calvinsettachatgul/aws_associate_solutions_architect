@@ -30,8 +30,10 @@ right now don't have any in this region
 
 create a load balancer
 
+MyClassicELB
+
 in mydmz
-default vpc
+default vpc not advanced 
 internal or external load balancer?
 internet facing?
 
@@ -48,7 +50,7 @@ send all all port 80 traffic to port 8080
 
 port 80 to port 80
 
-assign security groups
+assign security groups webdmz
 use the webdmz security group that he created earlier
 can assign multiple security groups at once
 
@@ -61,24 +63,29 @@ improve load balancer security because not using ssl
 don't have any ssl certificates
 
 configure health checks
+    this is the guts of the elb
 	this is really important
 	load balancer queries a file
 		will bring the load balancer in service or out of service
+
+what is the ping path 
 
 load balancer
 queryies a file or pathway 
 depending on results brings load balancer into or out of service
 
 path will be the healthcheck.html
-response time out
 
-time to wait when receiving response
+there are advaanced details 
+response time out
+    time to wait when receiving response
 
 2 to 60 seconds
 	min to max up to 60 seconds
 
 health check interval
 	this is the amount of time between each health check
+    between each check 5 sec to 300 sec 
 
 amount of time between each health check
 
@@ -104,9 +111,11 @@ may want to lower it and not have a weberver dead for 1 min before notification
 healthy threshold 3 times
 and 10 seconds between checks
 
-
 add our ec2 instances
 	within the default vpc and the web server instance
+    add webserver to it 
+
+going beyond free tier accidentally leave on the elastic load balancer 
 
 cross zone load balancing
 distribute load evenly
@@ -130,6 +139,9 @@ load balancer is currently out of service
 under the instances section
 	instance is out of service
 
+create a new healthy.html 
+
+refresh button 
 
 bring it all the way to the top now we are going to wait
 the instance will come into service
@@ -151,8 +163,10 @@ have not configured apache to restart on reboot?
 
 common thing to cause this security group section did not restore outbound rules to all ports
 
-
 hopefully able to resolve
+
+dns name points to index.html 
+dns resolution 
 
 last thing you want to point out
 
@@ -167,5 +181,89 @@ resolving multi ec2 behind elastic load balancer then only DNS no public IP
 in service or out of service depend on the healthchecks
 
 elastic load balancers have own dns names 
+
+2 different types of load balancers 
+    application 
+    classic
+
+
+no public ip for load balancer 
+only dns name
+
+public ip addresses can change 
+
+create the second type of load balancer 
+    application load balancer 
+
+learn it in depth?
+
+similar to classic 
+
+    MyApplicationELB
+
+    listeners 
+    http
+
+available subnets 
+
+add them in 
+
+load balancing across 
+eu-west-2a
+eu-west-2b
+
+routing and target groups 
+
+target group 
+
+MyAppELBTG
+update the port to 443
+
+path 
+/healthcheck.html
+
+traffic port
+override to a specific port 
+
+2 failures will take it out of service 
+
+time out is 2 seconds 
+intervals as 5 sec 
+
+http codes 
+200 
+
+200 to 202 
+a range 
+200 to 299
+
+add to registered targets 
+
+hit create 
+
+an application load balancer 
+go in and test it 
+
+dns for alb 
+
+dns for elb 
+
+wont get an ipv4 address 
+always get dns address 
+
+look at listeners on port 80
+
+monitoring stats 
+    number of http errrors 
+
+    server side error
+    client side error 
+
+got our tags 
+
+grab the dns name 
+    put it in the clipboard 
+
+app load balancer is working 
 
 
