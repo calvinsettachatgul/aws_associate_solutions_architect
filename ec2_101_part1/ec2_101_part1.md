@@ -40,20 +40,36 @@ pay by the hour
 
 on demand 
 -----
+    fixed rate 
     by second for linux
+        in the future maybe for windows
 reserved 
 -----
+    1-3 year contract 
+        some money upfront 
+        or less money upfront
     discount on hourly charge  
     capacity reservation 
     offer discount 
 
 spot 
 -----
+    rate moves up and down
     bid whatever price you want 
         how much you are willing to pay 
     greater savings 
     flexible start and end times 
     spot rate moves all the time 
+spot 
+-----
+    low cost and flexibiltiy 
+    flexible start and end time 
+    very low compute prices 
+    
+    case studies 
+    insurance or genomic 
+    3am in the morning 
+        not using spot prices then several millions of dollars as opposed to 8000 
 dedicated hosts 
 -----
     physical ec2 
@@ -76,16 +92,6 @@ reserved
     standard reserve instance 
     convertible ri spend the same or more change the status cant spend less 
     scheduled ri launch within the time window you reserve 
-spot 
------
-    low cost and flexibiltiy 
-    flexible start and end time 
-    very low compute prices 
-    
-    case studies 
-    insurance or genomic 
-    3am in the morning 
-        not using spot prices then several millions of dollars as opposed to 8000 
 
 urgent compute needs 
 dedicated hosts 
@@ -96,37 +102,48 @@ ec2 types
 pricing models 
 different families 
 number is the generation 
+currently the number is 10 
 
 d2 dense storage 
+    fileservers/ data warehouse/ hadoop
 
 r for ram 
     memory optimized 
 
-m general purpose 
+m4  general purpose 
     main choice 
     application servers 
 
 c compute optimized 
 
 g graphics intensive 
+    video encoding 
+    3d application streaming 
 
 i highspeed storage 
+    nosql 
+    datawarehousing 
 
 f field programable gate arrays 
-    change the hardware to suite the software 
-    fpga
+    change the hardware to suit the software 
+    hardware acceleration to suit code 
+    fpga google this for more details 
     hardware acceleration 
 
-t low cost gen purpose 
+t low cost gen purpose vm
+    default type 
     t2 micro 
     web server 
-    database server 
+    small database server 
 
 p2 graphics gen purpose gpu 
+    machine learning bitcoin mining?
+    or g2 
 
 x1 memory optimized 
-    sap hana apache spark 
-    extreme memory 
+    sap hana
+     apache spark 
+    extreme memory optimized 
     extreme ram 
 
 
