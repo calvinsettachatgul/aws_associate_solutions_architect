@@ -63,4 +63,6 @@ make sure apache service stays on
 
 enter the name of the bucket
 
+aws s3 mv s3://calvins/fishingboats.jpeg s3://calvins/media/fishingboats.jpeg
+aws s3 mv s3://calvins/highway.jpeg s3://calvins/media/highway.jpeg
 

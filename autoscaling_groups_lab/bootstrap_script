@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# elevate priviledges
+sudo su 
+
+# update the kernel 
+yum update -y
+
+# install apache
+yum install httpd -y
+
+# start the apache server
+service httpd start
+
+# automatically start the apache server
+chkconfig httpd on
+
+# copy  index.html and healthcheck.html
+aws s3 cp  s3://acloudguruwebsitebucketcalvin/index.html /var/www/html/
+aws s3 cp  s3://acloudguruwebsitebucketcalvin/healthcheck.html /var/www/html/
