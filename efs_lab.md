@@ -112,3 +112,6 @@ use cases of efs
 accessing the same files
 make directory permissions and restrictions 
     at file level and directory level 
+
+ebs to a single instance 
+efs to multiple instance

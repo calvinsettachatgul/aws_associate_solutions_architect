@@ -213,7 +213,7 @@ nightmare to debug
 aws xray service to understand what is happening 
 lambda is globally 
 know which triggers lambda 
-max of 5 min 
+max of 5 min duration time 
 
 different languages available 
 
