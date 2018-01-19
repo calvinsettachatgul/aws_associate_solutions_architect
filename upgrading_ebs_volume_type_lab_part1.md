@@ -1,4 +1,5 @@
-upgrading_ebs_volume_type_lab_part1
+upgrading ebs volume type lab part1
+------------------------------
 
 how to upgrade ebs storage types from one storage medium to another 
 
@@ -9,6 +10,7 @@ gen purpose ssd or magetic storage
 change to provisioned iops 
 go into ec2 
 
+ec2 and its ebs volume mounted has to be in the same az
 
 previously 
 add a new volume 
@@ -35,10 +37,23 @@ go ahead and launch
 ssh into the ec2 instance 
 wait for these to be initialized 
 
+can modify a volume on the fly dont have to stop and take a snapshot
+except for the magnetic 
+
+create in another az 
+create a snaphsot 
+    my little web server snap 
+
+    take a little bit of time 5 min 
+    snap shots are there 
+    create an ima ge
+    create another volume 
+
 see what volumes have been added to this instance 
     attached to mysqldb instance 
     its attached to the instance but have not mounted it 
 
+copy the snapshot to a new region 
 lsblk 
 
 detach a volume 
