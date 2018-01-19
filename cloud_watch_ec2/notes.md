@@ -27,6 +27,7 @@ poling every 5 min
 
 go to cloud watch
 	to the left different things dashboard alarms and events
+    logs metrics 
 
 go to metrics see the ones that are available in this region
 
@@ -40,9 +41,13 @@ add them to a dasboard
 create a dashboard right now don't have any
 
 my overview
+my webserver
 
 now created overview dashboard metrics
 metric graph widgets
+
+create a text widget 
+    uses markdown 
 
 a visual dashboard
 know about ec2 instance
@@ -67,6 +72,8 @@ change it to the last day and it will update dashboard
 change it to last 3 hours
 
 add additional widgets not just ec2
+
+line widget 
 
 add s3 widget 
 	# of objects
@@ -106,6 +113,7 @@ have a look at alarms
 look at creating an alarm
 
 based on metrics prepopulated 
+    what metrics are availabe by default 
 
 for cpu utilization
 
@@ -174,7 +182,58 @@ cloud trail is for auditiing
 
 cloud watch is for performance monitoring
 
+there are custom metrics
+    line graph of cpu utilization 
 
+add more widgets 
 
+color in underneath 
+    ec2 instance metrics 
+
+cpu util 
+cpu credit 
+cpu balance 
+
+add another 
+a number
+per instance metrics 
+
+cpu utilization 
+
+now have dahsboard 
+
+for 
+
+create it for anything supported by cloud watch 
+
+create an alarm for cpu utilization 
+
+go into ec2 
+cpu utilization spiking regularly
+see when it happens 
+    730 in the morning 
+
+when is it spiking 
+    
+    cpu utilization 
+    cpu is going over 80%
+
+   what are logs  
+
+    dashboard 
+        host layer 
+
+    metrics 
+        view metrics automatically
+
+standard monitoring 5 min 
+detailed is 1 min 
+
+logs cloudwatch logs 
+    aggreg
+    monitor 
+    store logs 
+
+cloud trail is for auditing
 
 

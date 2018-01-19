@@ -91,4 +91,79 @@ provision role
 you can see the s3 in there
 don't have to worry about creating role for per region basis
 
+create an ec2 instance 
+
+next leave everything else as default 
+
+review and launch 
+
+launching ec2 
+take a couple of min 
+log into ec2 instance 
+
+see the iam role assigned to it 
+click on the policy to see the json policy 
+click on the policy name 
+
+see all the actions can perform 
+
+go back ec2 instance dashobard 
+
+instance settings 
+
+can attach new roles to the ec2 
+
+problems with the questions release of new material and updates 
+
+possible to attach role to running ec2 
+    it is possible now 
+maybe not possible when question written
+
+documentation it says something else 
+
+bare in mind going into exam 
+
+ssh into ec2 instance 
+
+sudo yum update 
+
+access s3 
+
+aws s3 ls 
+
+works straight away 
+dont need to install credentials
+configure creds
+
+
+its really secure 
+dont need to store locally 
+
+if change dont need to update
+
+confirm no credentials on instance
+
+cd ~
+
+.aws directory 
+
+it does not exist 
+
+aws configure 
+
+leave out id and password 
+
+default region set
+
+if you cd into .aws 
+
+has the config data and default region 
+
+
+ec2 got compromised 
+dont have to delete the keys 
+and updating across many ec2 
+
+thats it for this lecture 
+
 

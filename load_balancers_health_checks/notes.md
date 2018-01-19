@@ -266,4 +266,4 @@ grab the dns name
 
 app load balancer is working 
 
-
+read the ELB FAQ
