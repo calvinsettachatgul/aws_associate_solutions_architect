@@ -1,4 +1,6 @@
+
 ec2 101 part 2
+------------------------------
 
 ebs 
 storage volumes attached to virtual machines 
@@ -14,29 +16,29 @@ placed in specific az
     have redundancy built in 
 
 4 types ebs 
+    some argue 5 different types
 
     ssd
     ----- 
-
     gen purpose ssd gp2
         price and performance ssd 
         3iops per gig 
         10000 iops available 
         burst up to 3000 iops for extended periods of time 
+
     provisioned iops ssd i01
         I/O intensive larage relational or NOsql database 
         need more than 10000 IOPS
         can go up to 20000 IOPS per volume 
 
-
     magnetic
     -----  
-
     high throughput optimized HDD (ST1)
         big data 
         optimize the throughput 
         big data data warehousing log processing 
         cannot be a boot volume 
+
     cold hdd sc1 
         lowest cost storage 
         file server 
@@ -67,8 +69,9 @@ what will we cover
         build a serverless webpage  
         build serverless website with polly 
 
+high performance placement groups
+
 how to create  reserved instance 
-    
 
 exam tips 
 what should you remember 

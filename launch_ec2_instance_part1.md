@@ -5,6 +5,8 @@ for all of course
 using amazon linux ami
 python ruby perl java
 
+default delete on termination 
+
 free tier only 
 t2 micro
 
@@ -14,6 +16,8 @@ main choice for application servers
 d for density
 
 main set up page 
+
+security groups are vitual firewall
 
 purchasing options 
 spot instance 
