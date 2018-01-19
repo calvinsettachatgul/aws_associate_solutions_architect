@@ -66,7 +66,7 @@ yum update -y
 
 copy index.html from bucket to ec2 instance
 
-aws s3 cp s3://acloudguruwebsitebucket/index.html/var/www/html/
+aws s3 cp s3://acloudguruwebsitebucket/index.html /var/www/html/
 
 move the object to 
 
