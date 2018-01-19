@@ -66,3 +66,10 @@ enter the name of the bucket
 aws s3 mv s3://calvins/fishingboats.jpeg s3://calvins/media/fishingboats.jpeg
 aws s3 mv s3://calvins/highway.jpeg s3://calvins/media/highway.jpeg
 
+
+application load balancer at layer 7
+
+classic load balancer at layer 4
+
+copy the dns name of the elb
+

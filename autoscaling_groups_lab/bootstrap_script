@@ -1,4 +1,11 @@
 #!/bin/bash
+# example bootstrap script from acloudguru
+#
+#
+#
+#
+
+#!/bin/bash
 
 # elevate priviledges
 sudo su 
