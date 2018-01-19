@@ -27,16 +27,18 @@ up to petabyte scale
 1000s of concurrent requests at once 
 its quite new 
     not 11 9s durability 
-    will get a durability rating 
+    will get a durability rating eventually
 
 efs is block based storage 
     files and share them with other ec2 instances 
 
-s3 
+similar to s3 
     read after write consistency 
     block based not object based 
 
-just sstart putting files on it 
+just start putting files on it 
+
+not available in eu london 
 
 get a durability rating 
 in the future 
@@ -73,6 +75,8 @@ east1d
 east1e
 east1f
 
+public dns of ec2 instances 
+
 ec2-52-23-203-30.compute-1.amazonaws.com
 ec2-54-205-63-35.compute-1.amazonaws.com
 ec2-54-208-206-85.compute-1.amazonaws.com
@@ -102,3 +106,9 @@ restrict at a file level and directory level
 
 different scenarios around ec2 
 and choose ebs or efs 
+
+use cases of efs 
+
+accessing the same files
+make directory permissions and restrictions 
+    at file level and directory level 
