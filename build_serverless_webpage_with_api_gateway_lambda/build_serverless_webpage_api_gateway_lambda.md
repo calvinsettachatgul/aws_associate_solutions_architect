@@ -3,22 +3,28 @@ build a serverless webpage with api gateway and lambda
 
 what is the website going to look like 
 
+making a get request
 user hits a dns 
 
 resolve through route 53
-s3 bucket 
-get index and error
+resolve to s3 bucket 
+get index or error
+    html files 
 
 push button to api get function api gateway 
-lambda 
-api gateway 
-to response 
+    trigger get request to apigateway 
+        lambda 
+            prints out your name 
+    api gateway 
+    to response 
 
 lambda function hellocloudguruslambda
+returns your full name 
 
 You don't have permission to access billing information for this account. Contact your AWS administrator if you need help. If you are an AWS administrator, you can provide permissions for your users or groups by making sure that (1) this account allows IAM and federated users to access billing information and (2) you have the required IAM permissions.
 
 create a lambda function  
+------------------------------
 
 error 
 s3 
@@ -28,32 +34,50 @@ write your name
 
 log into aws console 
 
-lambda author from scratch
+    create lambda function  
+    lambda author from scratch
 
 basic information 
 Name
-myServerlessWebsite
+    myServerlessWebsite
 role name 
-HelloCloudGurusLambda
+    myLambdaExecution 
 
-create a new role 
+create a new role from template
+    Simple Microservice permissions 
+        gives basic execution role 
+    in policy templates 
 
-simple micro service permissions 
-in policy templates 
-
+see: 
 have confirguration 
-have triggers 
 monitoring 
+    designer 
+        function code with IDE
+            cloud9
+            paste code here 
+have triggers 
+
+environment variables
+    pass variables into our code use this in the next lab 
 
 edit the code inline 
+
+execution roles 
+    define our roles 
+
+Basic settings 
+    Description
+        My basic Lambda Website 
+
+have timeouts 
+    3 seconds then terminate the lambda function 
 
 upload a zip file 
 upload from amazon s3 
 most of the time edit inline 
 
-runtime environment 
-for developer associate exam 
-what are the different run time environments 
+know the runtime environment of lambda functions for the developer associate exam 
+    should know what are the different run time environments 
 
 handler info 
 how to execute 
