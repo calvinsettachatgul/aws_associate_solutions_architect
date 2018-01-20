@@ -9,4 +9,4 @@ def lambda_handler(event, context):
         "body": "Ryan Kroonenburg"
     }
     
-    return resp
+    return resp.body

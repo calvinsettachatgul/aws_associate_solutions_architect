@@ -5,12 +5,11 @@
 				var xhttp = new XMLHttpRequest();
 				xhttp.onreadystatechange = function() {
 					if (this.readyState == 4 && this.status == 200) {
-					document.getElementById("my-demo").innerHTML = this.responseText;
+                        document.getElementById("my-demo").innerHTML = JSON.parse(this.response).body;
 					}
 				};
-				xhttp.open("GET", "YOUR-API-GATEWAY-LINK-HERE", true);
+				xhttp.open("GET", "https://lxa84d17t1.execute-api.us-east-1.amazonaws.com/prod/myServerlessWebpage", true);
 				xhttp.send();
-
 			}
 
 		</script>
@@ -21,7 +20,7 @@
 		<br>
 		<br>
 		<br>
-		<h1>Hello <span id="my-demo">Cloud Gurus!</span></h1>
+		<h1>Hello <span id="my-demo">Cloud Gurus</span>!</h1>
 		<button onclick="myFunction()">Click me</button>
 		<br>
 		<img src="https://s3.amazonaws.com/acloudguru-opsworkslab-donotdelete/ACG_Austin.JPG">

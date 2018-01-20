@@ -92,10 +92,13 @@ def lambda_handler(event, context):
         "headers": {
             "Access-Control-Allow-Origin": "*",
         },
-        "body": "Ryan Kroonenburg"
+        "body": "Calvin Settachatgul"
     }
     
     return resp
+
+open this up in your favorite text editor 
+change your name if you want to change it in the lambda function 
 
 this is python not nodejs
 you've got your handler 
@@ -105,12 +108,58 @@ file is index.py
 
 the method is def function_name 
 
+how are we going to trigger this 
+    dynamodb can trigger rds cannot 
+
+add a trigger we are going to add apigateway
+leave as default and click save 
+
+invoke url will not work 
+
+    click method Any and this will take you to apigateway
+    configure the method in apigateway
+
+the client is you
+    sending http method 
+    goes to url  
+        if hitting apigateway 
+            proxy to lambda 
+            lambda response depending on information 
+            proxy to api gateway 
+            then back to client 
+                any method available to us 
+
+delete any method 
+    only want to allow get request 
+
+create new method get request 
+    integration type 
+    passing through lambda function 
+        http 
+        mock 
+        aws service 
+
+want to allow lambda proxy integration 
+
+create a new method 
+    get 
+    choose integration type Lambda Function 
+    choose region you are in 
+    choose the Lambda function myServerlessWebsite
+
+
 index.function_name
 event we are going to trigger 
 
 look at other things 
 environment variables 
 key value stores 
+
+deploy api
+deployment stage 
+    prod
+description 
+    my first deployment
 
 use them in the next labs 
 execution roles 
@@ -175,6 +224,7 @@ deployment message
 myfirst deploy 
 
 click on get and invoke url 
+    see your name 
 
 
 get back to different stages 
