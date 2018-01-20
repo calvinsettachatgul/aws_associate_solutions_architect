@@ -1,5 +1,6 @@
 route53 setup our ec2 instance lab 
 ------------------------------
+demonstrates routing policies in route53
 
 log into console 
 aws console 
