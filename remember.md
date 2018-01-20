@@ -38,3 +38,11 @@ DynamoDB
 Kinesis
 S3
 SNS
+
+
+Route53 DNS
+------------------------------
+NS Record 
+A Record
+TTL Record 
+
