@@ -8,11 +8,7 @@ won't go into route 53 too much
 what is dns?
 
 its a phone book
-
-
 look up joe smith in telephone book
-
-
 acloudguru
 
 convert human friendly domain name into ip addressess
